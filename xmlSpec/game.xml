@@ -1,0 +1,237 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Yunqing Zhang's Star Animation</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<frameMax>200</frameMax>
+<username>yunqinz</username>
+
+<view>
+  <width>1280</width>
+  <height>640</height>
+</view>
+
+<world>
+  <width>3000</width>
+  <height>800</height>
+</world>
+
+<back>
+  <file>images/sky.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>2290</width>
+  <height>800</height>
+  <transparency>true</transparency>
+</back>
+
+<front>
+  <file>images/castle.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>2290</width>
+  <height>800</height>
+  <transparency>true</transparency>
+</front>
+
+<tree>
+  <file>images/tree.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>480</width>
+  <height>480</height>
+  <transparency>true</transparency>
+</tree>
+
+<grass>
+  <file>images/grass.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>2290</width>
+  <height>800</height>
+  <transparency>true</transparency>
+</grass>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<player>
+  <file>images/sirengirl2.png</file>
+  <startLoc x="300" y="550"/>
+
+  <frames>8</frames>
+  <frameInterval>500</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>156</width>
+  <height>86</height>
+  <speedX>-300</speedX>
+  <speedY>300</speedY>
+  <chunk>
+    <size>5</size>
+    <distance>50</distance>
+  </chunk>
+  <transparency>true</transparency>
+</player>
+
+<smart>
+  <file>images/princess.png</file>
+  <number>1</number> 
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>80</width>
+  <height>106</height>
+  <startLoc x="320" y="240"/>
+  <speedX>-50</speedX>
+  <speedY>105</speedY>
+  <safeDistance>100</safeDistance>
+  <transparency>true</transparency>
+  <chunk>
+  <size>5</size>
+  <distance>50</distance>
+  </chunk>
+</smart>
+
+<targetstar>
+  <file>images/spinstar.png</file>
+  <startLoc x="400" y="140"/>
+  <frames>4</frames>
+  <frameInterval>4</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>32</width>
+  <height>32</height>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <minSpeed>-10</minSpeed>
+  <maxSpeed>50</maxSpeed>
+  <chunk>
+    <size>5</size>
+    <distance>50</distance>
+  </chunk>
+  <transparency>true</transparency>
+</targetstar>
+
+<greenorb>
+  <file>images/greenball.bmp</file>
+ 
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>37</width>
+  <height>37</height>
+  <startLoc x="320" y="240"/>
+  <minSpeed>-10</minSpeed>
+  <maxSpeed>50</maxSpeed>
+  <speedX>-100</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+  <chunk>
+  <size>5</size>
+  <distance>50</distance>
+</chunk>
+</greenorb>
+<spritesnumber>10</spritesnumber>
+
+<numberOfOrbs>3</numberOfOrbs>
+
+<bat>
+  <file>images/batsLeft.png</file>
+  <width>100</width>
+  <height>100</height>
+  <frames>4</frames>
+  <frameInterval>400</frameInterval>
+  <spritesnumber>10</spritesnumber>
+  <src x="0" y="0"/>
+  <startLoc x="900" y="600"/>
+  <speed x="100" y="100"/>
+  <minSpeed x="0" y="0"/>
+  <cushion>5</cushion>
+  <scale min="0.4" max="1.5"/>
+  <transparency>true</transparency>
+</bat>
+
+
+<star>
+  <file>images/yellowstar32.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>32</width>
+  <height>32</height>
+  <startLoc x="320" y="240"/>
+  <spritesnumber>50</spritesnumber>
+  <speedX>-175</speedX>
+  <speedY>-175</speedY>
+  <min>0</min>
+  <max>100</max>
+  <scale min = "0.5" max = "1.5"/>
+  <transparency>true</transparency>
+</star>
+
+
+
+<bullets>
+  <file>images/yellowstar32.png</file>
+  <startLoc x="120" y="140"/>
+
+  <frames>4</frames>
+  <frameInterval>0</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>78</width>
+  <height>48</height>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  
+  <Distance>200</Distance>>
+  <BulletInterval>100</BulletInterval>
+</bullets>>
+
+<bulletsstrategy>midpoint</bulletsstrategy>
+
+<screenWin>
+  <file>images/winner.png</file>
+  <transparency>true</transparency>
+</screenWin>
+
+<screenLose>
+  <file>images/gameover.png</file>
+  <transparency>true</transparency>
+</screenLose>
+
+<surfMenu>
+  <file>images/castlemenu2.jpeg</file>
+  <transparency>true</transparency>
+</surfMenu>
+
+</GameData>

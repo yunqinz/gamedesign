@@ -1,0 +1,7 @@
+Name: YUNQING ZHANG Clemson Email Address: yunqinz@g.clemson.eduCpSc 8700:Software DevelopmentProject no: #6Project due date: November 26thProject Description: 	1.Press ‘a’ the player go left,’d’ go right,’w’go up,’s’ go down.
+2.The player comes across the boundary,she will stop.
+3.Press ’SPACE’ to shoot.
+4.Press ‘g’ once enter into the ’God mode’ namely the player has infinite life. Press ‘g’ twice back to normal mode.
+5.Press ‘f2’ to replenish the blood.
+6.Press ‘r’ to restar to gameThe Specs that I implemented are:1.Demonstrate object or memory pooling (show sizes in F1/HUD);2.Your player, after it explodes and chunks/frames are no longer drawn, should re-appear. 3.Projectiles: you don’t have to shoot bullets, but you need projectiles;
+4.Collision detection and Explosions: you can either use chunks or frames;5.We should be able to generate frames for your game using the F4 key.6.Sound and Music;7.A well-controlled player object, depth, and a HUD, where the HUD only appears when it	has relevantinformation, and disappers after it displays the information for a short period of time.8. F1 (or another key) displays the HUD, with information about the pool(s), the animation, and player movement. Your game should begin with the HUD visible and then the HUD should disappear after3 seconds.9. Implement an infinite health mode.10. Implement a reset function that restarts your animation/game.The Specs that I was unable to implement are: NoProject description:    
